@@ -62,7 +62,7 @@ python_path=path\to\python.exe
 3. 启动 IDA 并运行分析
 4. 读取并总结报告
 
-你可以直接说：*"使用 wpegpt 技能分析 C:\samples\malware.exe"*、*"帮我大致分析 C:\samples\malware.exe"*、*"深度分析 suspicious.dll"* 或 *"检查 target.exe 的漏洞"*。（经测试 Agent 调用 SKILL 会出现不主动调用的情况，最好主动告知 AI 使用技能）
+你可以直接说：*"使用 wpegpt 技能分析 C:\samples\malware.exe"*、*"帮我大致分析 C:\samples\malware.exe"*、*"深度分析 suspicious.dll"* 或 *"检查 target.exe 的漏洞"*。（经测试 Agent 调用 SKILL 会出现不主动调用的情况，最好主动告知 AI 使用技能或 "/wpegpt-analyzer" 直接调用）
 
 报告将保存到 `<binary_dir>/<filename>_WPeAI_Results/`。
 
